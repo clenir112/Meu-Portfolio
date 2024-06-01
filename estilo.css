@@ -1,0 +1,323 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+
+.nome{
+   background-color: rgb(168, 223, 168) ; 
+   padding: 10px;
+   text-align: center; 
+ }
+ 
+ .nome h1 {
+   color: black;
+   font-size: 20px; 
+   margin-bottom: 30;
+ }
+ 
+ /* Estilo para o menu principal */
+ .menu-principal {
+   background-color: rgb(168, 223, 168);  
+   padding: 10px; 
+   height: 40px;
+ } 
+ 
+ .menu-principal nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ .menu-principal  ul li {
+   display: inline-block;
+   margin-right: 20px;
+ }
+ 
+ .menu-principal a {
+   color: black; 
+   text-decoration: none; 
+   
+ }
+ 
+ .menu-principal a:hover {
+   color: black;
+ }
+
+ .foto-perfil img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-top: -180px;
+  float: right;
+
+} 
+  
+
+
+ body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: rgb(168, 223, 168);   
+}
+
+
+
+h2 {
+   border-bottom: 1px solid rgb(168, 223, 168) ;
+   padding-bottom: 10px;
+   margin-bottom: 20px;
+}
+
+ul {
+   list-style: none;
+   padding: 0;
+}
+
+li {
+   margin-bottom: 10px;
+}
+
+#sobre-mim {
+   background-color: rgb(168, 223, 168); 
+}
+
+#projetos {
+   background-color: #deedf5;
+   text-align: center;
+}  
+
+#habilidades {
+   background-color:#deedf5 ;
+}
+
+#hobbies {
+   background-color: #deedf5;
+   text-align: center;
+}
+
+
+
+
+
+form {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+label {
+   flex-basis: 100%;
+   margin-bottom: 10px;
+}
+
+input[type="text"], 
+input[type="email"],
+textarea {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+
+
+button[type="submit"] {
+   background-color: #333;
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+}
+
+#contato {
+   background-color: #8ea392;
+   padding: 20px;
+ }
+ 
+ social-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-links li {
+  margin-right: 20px;
+}
+
+.social-links i {
+  font-size: 24px;
+}
+
+.copyright {
+  font-size: 14px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+ .social-links {
+    flex-wrap: wrap;
+  }
+ .social-links li {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+ .social-links {
+    flex-direction: column;
+  }
+ .social-links li {
+    margin-bottom: 10px;
+  }
+}
+ 
+section {
+  margin-bottom: 80px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+ 
+
+ #skills  li {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}  
+
+  
+#skill h2 {
+   font-size:medium ;
+   text-align: center;
+   justify-content: center;
+   margin-bottom: 20px;
+  }
+ 
+ #skill h3 {
+   margin: 0;
+   padding: 0%;
+   
+ }
+ 
+ #skill p {
+   margin: 0;
+  
+ }
+
+ #contato {
+   background-color: #f0f0f0;
+   padding: 20px;
+ }
+ 
+ #contato form {
+   width: 100%;
+   max-width: 600px;
+   margin: 0 auto;
+ }
+ 
+ #contato .form-group {
+   margin-bottom: 20px;
+ }
+ 
+ #contato label {
+   display: block;
+   margin-bottom: 5px;
+ }
+ 
+ #contato input[type="text"],
+ #contato input[type="email"],
+ #contato textarea {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 10px;
+   border-radius: 5px;
+   border: 1px solid #3f5816;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+ }
+ 
+ #contato input[type="text"]:focus,
+ #contato input[type="email"]:focus,
+ #contato textarea:focus {
+   outline: none;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+ }
+ 
+ #contato .btn {
+   background-color: #333;
+   color: #7bce7b;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+ 
+ #contato .btn:hover {
+   background-color: #a4d8a4;
+ }
+
+ footer {
+   background-color: #f7f7f7;
+   text-align: center;
+   padding: 20px;
+ }
+ 
+ .social-links {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   color: blue;
+ }
+
+ 
+.social-links-linkedin {
+  justify-content: right;
+  color: blue;
+} 
+ 
+.social-links i {
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+  color: blue;
+}
+
+.social-links.fa-linkedin {
+  color: #0072b1;
+}
+
+.social-links.fa-instagram {
+  color: #e1306c;
+}
+
+.social-links.fa-github {
+  color: #333;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #0e192c;
+  margin-bottom: 10px;
+}
+
+/* Responsividade */
+
+

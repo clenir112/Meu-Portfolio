@@ -6,21 +6,21 @@
 
 .nome{
    background-color: rgb(168, 223, 168) ; 
-   padding: 10px;
+   padding: 0.62rem;
    text-align: center; 
  }
  
  .nome h1 {
    color: black;
-   font-size: 20px; 
-   margin-bottom: 30;
+   font-size: 1.50rem; 
+   margin-bottom: 1.87rem;
  }
  
  /* Estilo para o menu principal */
  .menu-principal {
    background-color: rgb(168, 223, 168);  
-   padding: 10px; 
-   height: 40px;
+   padding: 0.62rem; 
+   height: 2.5rem;
  } 
  
  .menu-principal nav ul {
@@ -31,7 +31,7 @@
  
  .menu-principal  ul li {
    display: inline-block;
-   margin-right: 20px;
+   margin-right: 1.5rem;
  }
  
  .menu-principal a {
@@ -45,9 +45,9 @@
  }
 
  .foto-perfil img {
-  width: 300px;
+  width: 1.87rem;
   height: auto;
-  margin-top: -180px;
+  margin-top: -11,25rem;
   max-widht:100%;
 } 
 
@@ -59,8 +59,8 @@
 
 .foto-perfil-wrapper-img {
    max-widht: 100%;
-   height: 250px;
-   widh: 100%;
+   height: 15.6rem;
+   widht:14.5rem;
    border-radius: 50%;
 }   
    
@@ -74,9 +74,9 @@
 
 
 h2 {
-   border-bottom: 1px solid rgb(168, 223, 168) ;
-   padding-bottom: 10px;
-   margin-bottom: 20px;
+   border-bottom: 0.06rem solid rgb(168, 223, 168) ;
+   padding-bottom: 0.62;
+   margin-bottom: 1.25rem;
 }
 
 ul {
@@ -85,7 +85,7 @@ ul {
 }
 
 li {
-   margin-bottom: 10px;
+   margin-bottom: 0.62rem;
 }
 
 #sobre-mim {
@@ -124,8 +124,8 @@ input[type="text"],
 input[type="email"],
 textarea {
    width: 100%;
-   padding: 10px;
-   margin-bottom: 10px;
+   padding: 1.60rem;
+   margin-bottom: 0.62rem;
 }
 
 
@@ -141,119 +141,27 @@ button[type="submit"] {
    background-color: #8ea392;
    padding: 20px;
  }
- 
- social-links {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
 
-.social-links li {
-  margin-right: 20px;
-}
-
-.social-links i {
-  font-size: 24px;
-}
-
-.copyright {
-  font-size: 14px;
-  color: black;
-  margin-bottom: 10px;
-}
-
-
-
-/* Responsividade */
-@media (max-width: 768px) {
- .social-links {
-    flex-wrap: wrap;
-  }
- .social-links li {
-    margin-right: 10px;
-  }
-}
-
-@media (max-width: 480px) {
- .social-links {
-    flex-direction: column;
-  }
- .social-links li {
-    margin-bottom: 10px;
-  }
-}
- 
-section {
-  margin-bottom: 80px;
-}
-
-.skills {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.skill ul {
-  display: flex;
-  justify-content: space-between;
-}
-
- 
-
- #skills  li {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   
-}  
-
-  
-#skill h2 {
-   font-size:medium ;
-   text-align: center;
-   justify-content: center;
-   margin-bottom: 20px;
-  }
- 
- #skill h3 {
-   margin: 0;
-   padding: 0%;
-   
- }
- 
- #skill p {
-   margin: 0;
-  
- }
-
- #contato {
-   background-color: #f0f0f0;
-   padding: 20px;
- }
- 
  #contato form {
    width: 100%;
-   max-width: 600px;
+   max-width: 37.5rem;
    margin: 0 auto;
  }
  
  #contato .form-group {
-   margin-bottom: 20px;
+   margin-bottom: 2.25rem;
  }
  
  #contato label {
    display: block;
-   margin-bottom: 5px;
+   margin-bottom: 0.5rem;
  }
  
  #contato input[type="text"],
  #contato input[type="email"],
  #contato textarea {
    width: 100%;
-   padding: 10px;
+   padding: 0.62;
    margin-bottom: 10px;
    border-radius: 5px;
    border: 1px solid #3f5816;
@@ -328,5 +236,27 @@ section {
 }
 
 /* Responsividade */
+@media (max-width: 600px) {
+  
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+ 
+}
+
+@media (min-width: 901px) {
+ 
+}
+
+@media (max-width: 768px) {
+  .foto-perfil img {
+    width: 50%; 
+  }
+  .foto-perfil .nome {
+    font-size: 16px; 
+  }
+}
 
 
+ 
+ 

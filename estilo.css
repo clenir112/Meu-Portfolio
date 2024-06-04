@@ -46,16 +46,25 @@
 
  .foto-perfil img {
   width: 300px;
-  height: 300px;
-  border-radius: 50%;
+  height: auto;
   margin-top: -180px;
-  float: right;
-
+  max-widht:100%;
 } 
-  
 
+.foto-prfil-wrapper {
+   display: flex;
+   flex-direccion: column;
+   align-items: center;
+}
 
- body {
+.foto-perfil-wrapper-img {
+   max-widht: 100%;
+   height: 250px;
+   widh: 100%;
+   border-radius: 50%;
+}   
+   
+   body {
    font-family: Arial, sans-serif;
    margin: 0;
    padding: 0;
